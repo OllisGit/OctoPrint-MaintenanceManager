@@ -57,7 +57,7 @@ class TrackingService():
 
     def _storageTimerFunction(self):
         self._saveCurrentValues()
-        print(".")
+        # print(".")
         pass
 
     def _initStorageTimer(self):
@@ -167,7 +167,7 @@ class TrackingService():
     def processGCodeLine(self, gcodeLine:str):
         # if (self.currentTrackingState != self.TRACKING_STATE_TRACKING):
         #     raise AssertionError("Process Tracking not possible, because tracking is currently not tracking. Current state: "+self.currentTrackingState)
-        print("Process Tracking ")
+        # print("Process Tracking ")
         self.odometer.processGCodeLine(gcodeLine)
         pass
 
