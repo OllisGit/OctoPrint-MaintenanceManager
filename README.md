@@ -35,11 +35,14 @@ If you like it, I would be thankful about a cup of coffee :)
 
 ## Setup
 
+NOT USED AT THE MOMENT:
 Install via the bundled [Plugin Manager](https://docs.octoprint.org/en/master/bundledplugins/pluginmanager.html)
 or manually using this URL:
 
-TAKE A LOOK INTO THE RELEASE-SECTION
+ONLY FIRST DEV-RELEASE
+    https://github.com/OllisGit/OctoPrint-MaintenanceManager/releases/download/1.0.0.dev1/master.zip
 
+NOT USED AT THE MOMENT:
     https://github.com/OllisGit/OctoPrint-MaintenanceManager/releases/latest/download/master.zip
 
 ## Versions
