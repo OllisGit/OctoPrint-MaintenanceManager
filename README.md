@@ -20,6 +20,7 @@ If you like it, I would be thankful about a cup of coffee :)
 
 ## Features
 - [x] Total XYZE linear movement (only G0, G1. No G2/G3 or G28 or other manuel movement via control box)
+- [ ] Track Multi-Tool extrusion
 - [x] Total print time (pause excluded)
 - [ ] Track runtime/movement for predefined hardware parts (e.g. "#1 Nozzel 0.4", Duration=1d12h, Extrusion=123m )
 - [ ] Track fan runtime (M106/M107)
