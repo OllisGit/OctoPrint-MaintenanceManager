@@ -433,9 +433,9 @@ class Odometer(object):
             self.totalAxisTraveling.x = self.totalAxisTraveling.x + abs(currentAxisTraveling.x)
             self.totalAxisTraveling.y = self.totalAxisTraveling.y + abs(currentAxisTraveling.y)
             self.totalAxisTraveling.z = self.totalAxisTraveling.z + abs(currentAxisTraveling.z)
-            print("LastPosition: " + str(self.lastPos)+ " NewPosition:" + str(self.pos))
-            print("Moved: " + str(currentAxisTraveling))
-            print("TotalTraveling: " + str(self.totalAxisTraveling))
+            # print("LastPosition: " + str(self.lastPos)+ " NewPosition:" + str(self.pos))
+            # print("Moved: " + str(currentAxisTraveling))
+            # print("TotalTraveling: " + str(self.totalAxisTraveling))
 
 
         currentExtrusionTraveling = self._calcCurrentExtrusionTraveleing(self.totalExtrusion, self.lastTotalExtrusion)

@@ -20,6 +20,7 @@ If you like it, I would be thankful about a cup of coffee :)
 
 ## Features
 - [x] Total XYZE linear movement (only G0, G1. No G2/G3 or G28 or other manuel movement via control box)
+- [ ] Track Multi-Tool extrusion
 - [x] Total print time (pause excluded)
 - [ ] Track runtime/movement for predefined hardware parts (e.g. "#1 Nozzel 0.4", Duration=1d12h, Extrusion=123m )
 - [ ] Track fan runtime (M106/M107)
@@ -35,11 +36,14 @@ If you like it, I would be thankful about a cup of coffee :)
 
 ## Setup
 
+NOT USED AT THE MOMENT:
 Install via the bundled [Plugin Manager](https://docs.octoprint.org/en/master/bundledplugins/pluginmanager.html)
 or manually using this URL:
 
-TAKE A LOOK INTO THE RELEASE-SECTION
+ONLY FIRST DEV-RELEASE
+    https://github.com/OllisGit/OctoPrint-MaintenanceManager/releases/download/1.0.0.dev1/master.zip
 
+NOT USED AT THE MOMENT:
     https://github.com/OllisGit/OctoPrint-MaintenanceManager/releases/latest/download/master.zip
 
 ## Versions
